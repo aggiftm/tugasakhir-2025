@@ -13,7 +13,7 @@ class GuruSiswaSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('guru_siswa')->insert([
+        DB::table('guru_siswas')->insert([
             ['guru_id' => 1, 'siswa_id' => 1],
             ['guru_id' => 1, 'siswa_id' => 2],
             ['guru_id' => 2, 'siswa_id' => 3],
